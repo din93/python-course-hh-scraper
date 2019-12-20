@@ -1,0 +1,712 @@
+{
+  "vacancy_name": "Middle javascript",
+  "chosen_area": "Уфа",
+  "key_skills": [
+    {
+      "name": "JavaScript",
+      "count": 63,
+      "persentage": 14
+    },
+    {
+      "name": "Git",
+      "count": 47,
+      "persentage": 11
+    },
+    {
+      "name": "Node.js",
+      "count": 41,
+      "persentage": 9
+    },
+    {
+      "name": "TypeScript",
+      "count": 24,
+      "persentage": 6
+    },
+    {
+      "name": "MongoDB",
+      "count": 24,
+      "persentage": 6
+    },
+    {
+      "name": "PostgreSQL",
+      "count": 23,
+      "persentage": 6
+    },
+    {
+      "name": "HTML5",
+      "count": 19,
+      "persentage": 5
+    },
+    {
+      "name": "CSS3",
+      "count": 15,
+      "persentage": 4
+    },
+    {
+      "name": "CSS",
+      "count": 15,
+      "persentage": 4
+    },
+    {
+      "name": "AngularJS",
+      "count": 9,
+      "persentage": 2
+    },
+    {
+      "name": "React",
+      "count": 9,
+      "persentage": 2
+    },
+    {
+      "name": "Bootstrap",
+      "count": 8,
+      "persentage": 2
+    },
+    {
+      "name": "SQL",
+      "count": 7,
+      "persentage": 2
+    },
+    {
+      "name": "HTML",
+      "count": 7,
+      "persentage": 2
+    },
+    {
+      "name": "Английский язык",
+      "count": 7,
+      "persentage": 2
+    },
+    {
+      "name": "ООП",
+      "count": 6,
+      "persentage": 2
+    },
+    {
+      "name": "Vue.js",
+      "count": 5,
+      "persentage": 2
+    },
+    {
+      "name": "Linux",
+      "count": 5,
+      "persentage": 2
+    },
+    {
+      "name": "MySQL",
+      "count": 5,
+      "persentage": 2
+    },
+    {
+      "name": "Java",
+      "count": 5,
+      "persentage": 2
+    },
+    {
+      "name": "React.js",
+      "count": 4,
+      "persentage": 1
+    },
+    {
+      "name": "Redux",
+      "count": 4,
+      "persentage": 1
+    },
+    {
+      "name": "Sass",
+      "count": 3,
+      "persentage": 1
+    },
+    {
+      "name": "REST",
+      "count": 3,
+      "persentage": 1
+    },
+    {
+      "name": "Angular",
+      "count": 3,
+      "persentage": 1
+    },
+    {
+      "name": "Python",
+      "count": 3,
+      "persentage": 1
+    },
+    {
+      "name": "react",
+      "count": 3,
+      "persentage": 1
+    },
+    {
+      "name": "API",
+      "count": 3,
+      "persentage": 1
+    },
+    {
+      "name": "React Native",
+      "count": 3,
+      "persentage": 1
+    },
+    {
+      "name": "Agile Project Management",
+      "count": 3,
+      "persentage": 1
+    },
+    {
+      "name": "Веб-программирование",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "vue.js",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "Ajax",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "JSON API",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "ReactJS",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "Vue",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "JS",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "Docker",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "Kubernetes",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "PHP",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "react.js",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "Redis",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "jQuery",
+      "count": 2,
+      "persentage": 1
+    },
+    {
+      "name": "Backbone",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "VUE",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Rest api",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "OOP",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "REST APIs",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "GraphQL",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "уверенные знания C#, .Net Framfork 4.0, 4.5, ASP NET",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "javaskript",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Angular 6+",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "UX",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "RESTfull",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Nginx",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Apache HTTP Server",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "React JS",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Cross-Browser markup",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "React and Redux",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Scrum",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Frontend",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "PHP5",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Unix",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Zend Framework",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "SVN",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Angular 2+",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "ExpressJS",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Typescript",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Team management",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Atlassian Jira",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Web Application Development",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "reactjs",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "VueJS",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "k8s",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Elasticsearch",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Обучение и развитие",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Sphinx",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "MS SQL",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Back end",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Gulp",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "MS Excel",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "swagger",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "docker",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "typescript",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Разработка ПО",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "SPA",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Vue frontend",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "flexbox",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "ES6",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Less",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "vuejs",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Bootsrap",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "React.JS",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Flux",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "JIRA",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "C#",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Spring Framework",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "ORACLE",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "REST API",
+      "count": 1,
+      "persentage": 1
+    },
+    {
+      "name": "Microservices",
+      "count": 1,
+      "persentage": 1
+    }
+  ],
+  "mean_salaries_by_curr": [
+    {
+      "currency": "RUR",
+      "value": 110000,
+      "salaries_count": 1
+    }
+  ],
+  "salaries_info": [
+    {
+      "from": 110000,
+      "to": 150000,
+      "currency": "RUR",
+      "gross": false
+    }
+  ],
+  "vacancies_count_by_areas": [
+    {
+      "id": "160",
+      "name": "Алматы",
+      "count": 2
+    },
+    {
+      "id": "17",
+      "name": "Белгород",
+      "count": 1
+    },
+    {
+      "id": "1007",
+      "name": "Брест",
+      "count": 1
+    },
+    {
+      "id": "1005",
+      "name": "Витебск",
+      "count": 1
+    },
+    {
+      "id": "26",
+      "name": "Воронеж",
+      "count": 5
+    },
+    {
+      "id": "1003",
+      "name": "Гомель",
+      "count": 1
+    },
+    {
+      "id": "3",
+      "name": "Екатеринбург",
+      "count": 6
+    },
+    {
+      "id": "88",
+      "name": "Казань",
+      "count": 2
+    },
+    {
+      "id": "41",
+      "name": "Калининград",
+      "count": 1
+    },
+    {
+      "id": "115",
+      "name": "Киев",
+      "count": 3
+    },
+    {
+      "id": "53",
+      "name": "Краснодар",
+      "count": 2
+    },
+    {
+      "id": "125",
+      "name": "Львов",
+      "count": 2
+    },
+    {
+      "id": "1002",
+      "name": "Минск",
+      "count": 13
+    },
+    {
+      "id": "1",
+      "name": "Москва",
+      "count": 24
+    },
+    {
+      "id": "66",
+      "name": "Нижний Новгород",
+      "count": 1
+    },
+    {
+      "id": "4",
+      "name": "Новосибирск",
+      "count": 6
+    },
+    {
+      "id": "69",
+      "name": "Орел",
+      "count": 1
+    },
+    {
+      "id": "72",
+      "name": "Пермь",
+      "count": 1
+    },
+    {
+      "id": "76",
+      "name": "Ростов-на-Дону",
+      "count": 2
+    },
+    {
+      "id": "78",
+      "name": "Самара",
+      "count": 2
+    },
+    {
+      "id": "2",
+      "name": "Санкт-Петербург",
+      "count": 11
+    },
+    {
+      "id": "79",
+      "name": "Саратов",
+      "count": 1
+    },
+    {
+      "id": "130",
+      "name": "Севастополь",
+      "count": 2
+    },
+    {
+      "id": "131",
+      "name": "Симферополь",
+      "count": 2
+    },
+    {
+      "id": "98",
+      "name": "Ульяновск",
+      "count": 1
+    },
+    {
+      "id": "99",
+      "name": "Уфа",
+      "count": 1
+    },
+    {
+      "id": "104",
+      "name": "Челябинск",
+      "count": 3
+    }
+  ],
+  "area_vacancies": [
+    {
+      "id": "35007487",
+      "premium": false,
+      "name": "Senior/Middle Frontend/Backend/Fullstack Developer (TypeScript, Node.js, MongoDB, PostgreSQL)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "99",
+        "name": "Уфа",
+        "url": "https://api.hh.ru/areas/99"
+      },
+      "salary": {
+        "from": 110000,
+        "to": 150000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "employer": {
+        "id": "4425101",
+        "name": "Цифровая кухня",
+        "url": "https://api.hh.ru/employers/4425101",
+        "alternate_url": "https://hh.ru/employer/4425101",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/3274212.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/3274213.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/708274.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4425101",
+        "trusted": true
+      },
+      "published_at": "2019-12-19T09:45:31+0300",
+      "created_at": "2019-12-19T09:45:31+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=35007487",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/35007487?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/35007487",
+      "relations": [],
+      "snippet": {
+        "requirement": "Понимает внутренние механизмы работы браузера и V8 (event loop, garbage collector, failover, DOM, networking, rendering / layout). Владеет кроссбраузерной адаптивной...",
+        "responsibility": "Создавать и поддерживать SPA с визуализацией карт/графов/графиков (Leaflet, d3.js, ...). Создавать и поддерживать архитектуру серверной части проекта. "
+      },
+      "contacts": null
+    }
+  ]
+}
