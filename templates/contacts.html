@@ -58,16 +58,21 @@
                       <div class="col-12 col-sm-6 col-md-9 text-center text-sm-left">
                           <span class="name lead">{{contact.name}}</span>
                           <br>
-                          <span class="fa fa-map-marker fa-fw text-muted" data-toggle="tooltip" title="" data-original-title="7396 E North St"></span>
+                          <span class="fa fa-map-marker fa-fw text-muted" data-toggle="tooltip" title=""></span>
                           <span class="text-muted">{{contact.city}}</span>
+                          {% if contact.email %}
+                          <br>
+                          <span class="fas fa-at fa-fw text-muted" data-toggle="tooltip" title=""></span>
+                          <span class="text-muted small">{{contact.email}}</span>
+                          {% endif %}
                           {% if contact.vk %}
                           <br>
-                          <span class="fab fa-vk fa-fw text-muted" data-toggle="tooltip" title="" data-original-title="https://vk.com/din_93"></span>
+                          <span class="fab fa-vk fa-fw text-muted" data-toggle="tooltip" title=""></span>
                           <span class="text-muted small">{{contact.vk}}</span>
                           {% endif %}
                           {% if contact.telegram %}
                           <br>
-                          <span class="fab fa-telegram fa-fw text-muted" data-toggle="tooltip" title="" data-original-title="https://t.me/din_93"></span>
+                          <span class="fab fa-telegram fa-fw text-muted" data-toggle="tooltip" title=""></span>
                           <span class="text-muted small text-truncate">{{contact.telegram}}</span>
                           {% endif %}
                       </div>
