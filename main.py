@@ -8,7 +8,7 @@ print('Добро пожаловать в мини-агрегатор инфор
 
 vacancy_name = input('Введите желаемую профессию для получения по ней общей информации: ').strip().capitalize()
 
-vacancies = utils.get_vacancies(vacancy_name)
+vacancies = utils.scrape_vacancies(vacancy_name)
 
 vacancies_count_by_areas = utils.get_vacancies_count_by_areas(vacancies)
 
@@ -41,7 +41,7 @@ else:
     print(f'К сожалению нет возможности получить информацию о заработной плате в выбранном регионе')
 
 print(f'\nЗагрузка детальной информации для {len(vacancies)} вакансий...')
-vacancies_detailed = utils.get_vacancies_detailed(vacancies, print_progress=True)
+vacancies_detailed = utils.scrape_vacancies_detailed(vacancies, print_progress=True)
 
 key_skills = utils.get_key_skills(vacancies_detailed)
 
