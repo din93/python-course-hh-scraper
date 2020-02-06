@@ -1,0 +1,50 @@
+CREATE TABLE regions (
+    id   INTEGER       PRIMARY KEY
+                    NOT NULL
+                    UNIQUE,
+    name VARCHAR (100) UNIQUE ON CONFLICT IGNORE
+                    NOT NULL
+);
+
+CREATE TABLE vacancy_queries (
+    id               INTEGER  PRIMARY KEY AUTOINCREMENT
+                            NOT NULL,
+    vacancy_query    STRING   NOT NULL,
+    query_region     INTEGER  REFERENCES regions (name),
+    vacancies_count  INTEGER  NOT NULL,
+    datetime_created DATETIME NOT NULL
+                            DEFAULT (CURRENT_TIMESTAMP) 
+);
+
+CREATE TABLE key_skills (
+    id         INTEGER      PRIMARY KEY AUTOINCREMENT
+                            NOT NULL,
+    vacancy_id INTEGER      REFERENCES vacancy_queries (id) 
+                            NOT NULL,
+    name       VARCHAR (50) NOT NULL,
+    count      INTEGER      NOT NULL,
+    persentage INTEGER      NOT NULL
+);
+
+CREATE TABLE mean_salaries_by_curr (
+    id             INTEGER     PRIMARY KEY AUTOINCREMENT
+                            NOT NULL
+                            UNIQUE,
+    vacancy_id     INTEGER     REFERENCES vacancy_queries (id) 
+                            NOT NULL,
+    currency       VARCHAR (3) NOT NULL,
+    value          INTEGER     NOT NULL,
+    salaries_count INTEGER     NOT NULL
+);
+
+CREATE TABLE contacts (
+    id       INTEGER PRIMARY KEY AUTOINCREMENT
+                    NOT NULL
+                    UNIQUE,
+    name     STRING  NOT NULL,
+    city     STRING,
+    email    STRING,
+    vk       STRING,
+    telegram STRING,
+    img_src  STRING
+);
