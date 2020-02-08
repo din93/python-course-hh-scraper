@@ -42,20 +42,21 @@
   </nav>
 
   <section class="contacts-section px-5">
+    <div class="col-12 col-lg-5 mx-auto">
     {% for contact in contacts %}
-    <div class="card card-default mb-5" id="card_contacts">
+    <div class="card card-default mb-4" id="card_contacts">
       <div id="contacts" class="panel-collapse collapse show" aria-expanded="true">
           <ul class="list-group pull-down" id="contact-list">
               <li class="list-group-item">
                   <div class="row w-100">
-                      <div class="col-12 col-sm-6 col-md-3 px-0">
+                      <div class="col-12 col-sm-6 col-md-4 px-0">
                         {% if contact.img_src %}
                           <img src="{{contact.img_src}}" alt="{{contact.name}}" class="img-fluid rounded-circle d-block mx-auto">
                         {% else %}
                           <img src="/static/img/placeholder.jpeg" alt="{{contact.name}}" class="img-fluid rounded-circle d-block mx-auto">
                         {% endif %}
                       </div>
-                      <div class="col-12 col-sm-6 col-md-9 text-center text-sm-left">
+                      <div class="col-12 col-sm-6 col-md-8 text-center text-sm-left">
                           <span class="name lead">{{contact.name}}</span>
                           <br>
                           <span class="fa fa-map-marker fa-fw text-muted" data-toggle="tooltip" title=""></span>
@@ -83,6 +84,7 @@
       </div>
     </div>
     {% endfor %}
+    </div>
   </section>
 
   <!-- Footer -->

@@ -122,11 +122,11 @@ def add_vacancy_queries_cache(vacancy_query, query_region, vacancies_count, key_
 def get_vacancy_queries_cache(vacancy_query, query_region=None):
     Session = sessionmaker(bind=engine)
     session = Session()
-    query = session.query(VacancyQuery).filter(VacancyQuery.vacancy_query == vacancy_query)
+    query_by_name = session.query(VacancyQuery).filter(VacancyQuery.vacancy_query == vacancy_query)
     if query_region:
-        vacancy_query_result = query.filter(VacancyQuery.query_region == query_region).first()
+        vacancy_query_result = query_by_name.filter(VacancyQuery.query_region == query_region).first()
     else:
-        vacancy_query_result = query.filter(VacancyQuery.query_region == None).first()
+        vacancy_query_result = query_by_name.filter(VacancyQuery.query_region == None).first()
     if vacancy_query_result:
         key_skills_result = session.query(KeySkill).filter(KeySkill.vacancy_id == vacancy_query_result.id).all()
         mean_salaries_result = session.query(MeanSalary).filter(MeanSalary.vacancy_id == vacancy_query_result.id).all()

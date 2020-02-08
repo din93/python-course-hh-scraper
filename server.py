@@ -12,7 +12,7 @@ def form():
     db_orm.delete_inactual_queries()
     region_names = db_orm.get_region_names()
     if not len(region_names):
-        region_names = utils.scrape_region_names()
+        region_names = utils.get_big_city_names()
         db_orm.add_regions(region_names)
 
     input_vacancy = request.args.get('input_vacancy', '').strip().capitalize()

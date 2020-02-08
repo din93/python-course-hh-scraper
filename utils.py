@@ -48,8 +48,7 @@ def get_vacancies_count_by_areas(vacancies):
 def get_area_vacancies(vacancies, chosen_area):
     area_vacancies = []
     if chosen_area:
-        area_vacancies = [vacancy for vacancy in vacancies if vacancy['area']['name'].capitalize().startswith(chosen_area)]
-        chosen_area = chosen_area
+        area_vacancies = [vacancy for vacancy in vacancies if vacancy['area']['name'].lower() == chosen_area.lower()]
     
     return area_vacancies
 
@@ -121,6 +120,9 @@ def get_json_report(vacancy_name, key_skills, vacancies_count_by_areas, area_vac
         'vacancies_count_by_areas': vacancies_count_by_areas,
         'area_vacancies': area_vacancies,
     }
+
+def get_big_city_names():
+    return ["Москва","Санкт-Петербург","Новосибирск","Екатеринбург","Нижний Новгород","Казань","Челябинск","Омск","Самара","Ростов на Дону","Уфа","Красноярск","Воронеж","Пермь","Волгоград","Краснодар","Саратов","Тюмень","Тольятти","Ижевск","Барнаул","Ульяновск","Иркутск","Хабаровск","Ярославль","Владивосток","Махачкала","Томск","Оренбург","Кемерово","Новокузнецк","Рязань","Астрахань","Наберенжные Челны","Пенза","Киров","Липецк","Чебоксары","Балашиха","Калининград","Тула","Курск","Севастополь","Сочи","Ставрополь","Улан-Удэ","Тверь","Магнитогорск","Иваново","Брянск","Белгород","Сургут","Владимир","Тагил","Чита","Архангельск","Симферополь","Калуга","Смоленск","Волжский","Якутск","Саранск","Череповец","Курган","Вологда","Орёл","Владикавказ","Подольск","Грозный","Мурманск","Тамбов","Петрозаводск","Стерлитамак","Нижневартовск","Кострома"]
 
 def scrape_region_names():
     regions_response = requests.get('https://api.hh.ru/areas').json()
